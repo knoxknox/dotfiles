@@ -1,5 +1,4 @@
-Sublime 3 settings
-==================
+# Sublime 3
 
 Open configuration under ~/.config/sublime-text-3.<br/>
 Copy files from 'Packages' to the configuration directory.
