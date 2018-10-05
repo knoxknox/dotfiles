@@ -1,0 +1,13 @@
+{
+  "always_show_minimap_viewport": true,
+  "close_windows_when_empty": false,
+  "color_scheme": "Packages/Theme - Netbeans/Netbeans.tmTheme",
+  "enable_tab_scrolling": false,
+  "font_size": 10,
+  "ignored_packages": ["Vintage"],
+  "show_definitions": false,
+  "show_full_path": true,
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_trailing_white_space_on_save": true
+}

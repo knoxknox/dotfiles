@@ -1,0 +1,8 @@
+[
+  { "caption": "/! (clone file)", "command": "clone_file" },
+  { "caption": "/! (sbar toggle)", "command": "toggle_side_bar" },
+  { "caption": "/! (copy filepath)", "command": "copy_relative_path" },
+  { "caption": "/!~ (split pane X)", "command": "set_layout", "args": { "cols": [0.0, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1]] } },
+  { "caption": "/!~ (split panes X/X)", "command": "set_layout", "args": { "cols": [0.0, 1.0], "rows": [0.0, 0.5, 1.0], "cells": [[0, 0, 1, 1], [0, 1, 1, 2]] } },
+  { "caption": "/!~ (split panes X-X)", "command": "set_layout", "args": { "cols": [0.0, 0.5, 1.0], "rows": [0.0, 1.0], "cells": [[0, 0, 1, 1], [1, 0, 2, 1]] } }
+]

@@ -1,0 +1,5 @@
+<snippet>
+  <scope>source.ruby</scope>
+  <tabTrigger>bb</tabTrigger>
+  <content><![CDATA[byebug]]></content>
+</snippet>
