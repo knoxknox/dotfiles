@@ -6,11 +6,13 @@
   "close_windows_when_empty": false,
   "color_scheme": "Packages/Theme - Netbeans/Netbeans.tmTheme",
   "enable_tab_scrolling": false,
+  "folder_exclude_patterns": [".git", ".vagrant", "node_modules"],
   "font_size": 10,
   "ignored_packages": ["Vintage"],
   "show_definitions": false,
   "show_full_path": true,
   "tab_size": 2,
   "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+  "trim_trailing_white_space_on_save": true,
+  "word_wrap": false
 }

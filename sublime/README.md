@@ -1,9 +1,10 @@
 # Sublime 3
 
-Open configuration under ~/.config/sublime-text-3.<br/>
-Copy files from 'Packages' to the configuration directory.
+Copy files from `Packages` to the config folder:<br/>
+linux configuration: `~/.config/sublime-text-3/Packages`<br/>
+mac os configuration: `~/Library/Application Support/Sublime Text 3/Packages`
 
-Packages:
+Plugins:
 [Package Control](https://packagecontrol.io),
 [GitGutter](https://packagecontrol.io/packages/GitGutter),
 [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile),
