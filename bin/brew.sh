@@ -1,5 +1,6 @@
 brew install git
 brew install vim
+brew install curl
 brew install wget
 brew install httpie
 
