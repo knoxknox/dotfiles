@@ -12,7 +12,6 @@ apt-get install vagrant
 
 # pip
 sudo pip install httpie
-sudo pip install colout
 
 # node
 install nvm
