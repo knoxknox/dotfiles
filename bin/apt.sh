@@ -20,13 +20,12 @@ apt-get install redis-server
 
 # packages
 sudo dpkg -i skype-linux.deb
-sudo dpkg -i teamviewer-linux.deb
-sudo dpkg -i dropbox_1.6.2_amd64.deb
+sudo dpkg -i dropbox_2015_amd64.deb
 sudo dpkg -i google-chrome-stable.deb
 sudo dpkg -i mysql-workbench-community.deb
-tar -zxvf meld-3.16.3.tar.xz
-tar -zxvf sublime-text-3_0_0.tar.gz
-tar -zxvf smartgit-linux-8_0_2.tar.gz
+tar -zxvf meld-3.18.2.tar.xz
+tar -zxvf sublime-text-3_1_1.tar.gz
+tar -zxvf smartgit-linux-18_1_5.tar.gz
 
 # gnome-classic
 apt-get install gnome-shell or gnome-session-fallback
