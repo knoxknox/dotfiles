@@ -1,21 +1,21 @@
 # bin
-apt-get install mc
-apt-get install git
-apt-get install vim
-apt-get install curl
-apt-get install htop
-apt-get install wget
-apt-get install byobu
-apt-get install unzip
-apt-get install docker
-apt-get install httpie
-apt-get install openvpn
-apt-get install vagrant
+apt-get -y install mc
+apt-get -y install git
+apt-get -y install vim
+apt-get -y install curl
+apt-get -y install htop
+apt-get -y install wget
+apt-get -y install byobu
+apt-get -y install unzip
+apt-get -y install docker
+apt-get -y install httpie
+apt-get -y install openvpn
+apt-get -y install vagrant
 
 # storage
-apt-get install memcached
-apt-get install mysql-server
-apt-get install redis-server
+apt-get -y install memcached
+apt-get -y install mysql-server
+apt-get -y install redis-server
 
 # packages
 tar -zxvf meld-3.18.2.tar.xz
