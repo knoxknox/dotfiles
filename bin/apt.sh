@@ -22,6 +22,7 @@ apt-get install redis-server
 # packages
 sudo dpkg -i skype-linux.deb
 sudo dpkg -i dropbox_2015_amd64.deb
+sudo dpkg -i virtualbox-5.2_amd64.deb
 sudo dpkg -i google-chrome-stable.deb
 sudo dpkg -i mysql-workbench-community.deb
 tar -zxvf meld-3.18.2.tar.xz
