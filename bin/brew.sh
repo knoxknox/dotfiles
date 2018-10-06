@@ -10,7 +10,6 @@ brew cask install docker
 brew cask install iterm2
 brew cask install vagrant
 brew cask install smartgit
-brew cask install apptivate
 brew cask install spectacle
 brew cask install viscosity
 brew cask install sequel-pro
