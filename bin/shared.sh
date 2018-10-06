@@ -9,6 +9,12 @@ cd /tmp/
 wget https://bootstrap.pypa.io/get-pip.py
 sudo python get-pip.py && rm /tmp/get-pip.py
 
+# gvm
+cd /tmp/
+wget https://dl.google.com/go/go1.11.1.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf /tmp/go1.11.1.linux-amd64.tar.gz
+echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.profile
+
 # php
 apt-get install php5
 apt-get install apache2
