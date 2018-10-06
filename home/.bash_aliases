@@ -22,9 +22,6 @@ ph() {
       ssh: $ ssh root@192.168.0.1
       branch: $ git branch -a | grep --color 'pattern'
       deploy: $ BRANCH="$1" bundle exec cap stage deploy
-    bundler:
-      show: $ bundle show your-gem-name-should-be-here
-      open: $ subl $(bundle show your-gem-name-should-be-here)
     synchronize:
       vagrant: $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
   '
