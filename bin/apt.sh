@@ -8,11 +8,9 @@ apt-get install wget
 apt-get install byobu
 apt-get install unzip
 apt-get install docker
+apt-get install httpie
 apt-get install openvpn
 apt-get install vagrant
-
-# pip
-sudo pip install httpie
 
 # storage
 apt-get install memcached
