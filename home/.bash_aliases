@@ -16,6 +16,7 @@ ph() {
       vd: $ vagrant halt
       vr: $ vagrant rsync-auto
     review:
+      cz: $ git reset HEAD~1
       ca: $ git commit --amend
       cr: $ git push origin HEAD:refs/for/master
     remote:
