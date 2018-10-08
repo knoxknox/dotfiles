@@ -4,7 +4,7 @@
   "caret_extra_top": 0,
   "caret_extra_width": 0.75,
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Theme - Netbeans/Netbeans.tmTheme",
+  "color_scheme": "Packages/User/Colors/Netbeans.tmTheme",
   "enable_tab_scrolling": false,
   "folder_exclude_patterns": [".git", ".vagrant", "node_modules"],
   "font_size": 10,

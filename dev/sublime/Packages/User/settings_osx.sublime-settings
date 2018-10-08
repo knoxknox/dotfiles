@@ -1,7 +1,7 @@
 {
   "always_show_minimap_viewport": true,
   "close_windows_when_empty": false,
-  "color_scheme": "Packages/Theme - Netbeans/Netbeans.tmTheme",
+  "color_scheme": "Packages/User/Colors/Netbeans.tmTheme",
   "enable_tab_scrolling": false,
   "folder_exclude_patterns": [".git", ".vagrant", "node_modules"],
   "font_size": 13,
