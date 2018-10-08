@@ -20,7 +20,6 @@ ph() {
       ca: $ git commit --amend
       cr: $ git push origin HEAD:refs/for/master
     remote:
-      ssh: $ ssh root@192.168.0.1
       branch: $ git branch -a | grep --color 'pattern'
       deploy: $ BRANCH="$1" bundle exec cap stage deploy
     synchronize:
