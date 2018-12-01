@@ -2,7 +2,7 @@
   "always_show_minimap_viewport": true,
   "caret_extra_bottom": 0,
   "caret_extra_top": 0,
-  "caret_extra_width": 0.75,
+  "caret_extra_width": 0,
   "close_windows_when_empty": false,
   "color_scheme": "Packages/User/Colors/Netbeans.tmTheme",
   "enable_tab_scrolling": false,
