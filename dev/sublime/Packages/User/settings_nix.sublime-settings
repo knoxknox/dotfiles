@@ -7,7 +7,7 @@
   "color_scheme": "Packages/User/Colors/Netbeans.tmTheme",
   "enable_tab_scrolling": false,
   "folder_exclude_patterns": [".git", ".vagrant", "node_modules"],
-  "font_size": 10,
+  "font_size": 11,
   "ignored_packages": ["Vintage"],
   "show_definitions": false,
   "show_full_path": true,
