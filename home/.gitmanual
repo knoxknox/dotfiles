@@ -15,7 +15,7 @@ Local:
 Branches:
   git branch -av             - list branches
   git checkout <branch>      - switch to branch
-  git branch <new_branch>    - create new branch
+  git checkout -b <branch>   - create new branch
   git branch -d <local>      - delete local branch
   git branch -D <remote>     - delete remote branch
 
