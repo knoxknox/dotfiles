@@ -1,0 +1,30 @@
+Undo:
+  git reset HEAD~1           - cancel commit
+  git revert <commit>        - revert commit
+  git reset --hard HEAD      - discard all changes
+
+Local:
+  git log                    - show logs
+  git diff                   - show changes
+  git status                 - changed files
+  git add <file>             - stage file
+  git checkout HEAD <file>   - unstage file
+  git commit -m              - commit changes
+  git commit --amend         - append to last commit
+
+Branches:
+  git branch -av             - list branches
+  git checkout <branch>      - switch to branch
+  git branch <new_branch>    - create new branch
+  git branch -d <local>      - delete local branch
+  git branch -D <remote>     - delete remote branch
+
+Pull/Push:
+  git push origin HEAD -f    - force push
+  git push <remote> <branch> - publish changes
+  git pull <remote> <branch> - download changes
+  git push origin HEAD:refs/for/master - code review
+
+Merge/Rebase:
+  git rebase master -i       - rebase changes
+  git cherry-pick <commit>   - cherry-pick changes
