@@ -8,7 +8,7 @@ Local:
   git diff                   - show changes
   git status                 - changed files
   git add <file>             - stage file
-  git checkout HEAD <file>   - unstage file
+  git reset -q HEAD <file>   - unstage file
   git commit -m              - commit changes
   git commit --amend         - append to last commit
 
