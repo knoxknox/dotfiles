@@ -25,8 +25,8 @@ curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 # nvm
-# nvm install 8.12.0
-# nvm alias default 8.12.0
+# nvm install 8.15.0
+# nvm alias default 8.15.0
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 # rvm
