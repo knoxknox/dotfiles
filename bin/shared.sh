@@ -30,8 +30,8 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
 
 # rvm
-# rvm install ruby-2.4.0
-# rvm install jruby-9.2.0.0
+# rvm install ruby-2.6.0
+# rvm install jruby-9.2.5.0
 url="hkp://keys.gnupg.net"
 key="409B6B1796C275462A1703113804BB82D39DC0E3"
 gpg --keyserver $url --recv-keys $key && curl -sSL https://get.rvm.io | bash -s stable
