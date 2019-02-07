@@ -18,13 +18,13 @@ apt-get -y install mysql-server
 apt-get -y install redis-server
 
 # packages
-tar -zxvf meld-3.18.2.tar.xz
+tar -zxvf meld-3.20.0.tar.xz
 tar -zxvf sublime-text-3_1_1.tar.gz
-tar -zxvf smartgit-linux-18_1_5.tar.gz
+tar -zxvf smartgit-linux-18_2_5.tar.gz
 sudo dpkg -i skype-linux-64.deb
 sudo dpkg -i virtualbox-5.2.18_amd64.deb
 sudo dpkg -i dropbox-2015.10.28_amd64.deb
-sudo dpkg -i google-chrome-stable-69.0_amd64.deb
+sudo dpkg -i google-chrome-stable-70.0_amd64.deb
 sudo dpkg -i mysql-workbench-community-8.0.12_amd64.deb
 
 # gnome-classic
