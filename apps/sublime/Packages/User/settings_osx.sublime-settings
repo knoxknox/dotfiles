@@ -13,6 +13,7 @@
   "show_definitions": false,
   "show_full_path": true,
   "tab_size": 2,
+  "theme": "Legacy.sublime-theme",
   "translate_tabs_to_spaces": true,
   "trim_trailing_white_space_on_save": true,
   "word_wrap": false
