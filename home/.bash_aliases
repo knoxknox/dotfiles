@@ -1,4 +1,8 @@
 alias pw="cd ~/code"
+alias tl="tmux ls"
+alias ts="tmux attach -t"
+alias tu="tmux new-session -s"
+alias td="tmux kill-session -t"
 alias vu="vagrant up"
 alias vs="vagrant ssh"
 alias vd="vagrant halt"
@@ -25,10 +29,4 @@ ph() {
     synchronize:
       vagrant: $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
   '
-}
-
-vpn() {
-  auth_path="configs/auth.ovpn"
-  config_path="configs/config.ovpn"
-  sudo openvpn --cd ~/.vpn-keys --config $config_path --auth-user-pass $auth_path
 }
