@@ -61,6 +61,14 @@
 			<key>Text</key>
 			<string></string>
 		</dict>
+		<key>0x46-0x120000</key>
+		<dict>
+			<key>Action</key>
+			<integer>25</integer>
+			<key>Text</key>
+			<string>Maximize Active Pane
+Maximize Active Pane</string>
+		</dict>
 		<key>0x68-0x100000</key>
 		<dict>
 			<key>Action</key>
@@ -271,9 +279,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>269 151 606 469 0 0 1280 777 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>265 263 796 486 0 0 1280 777 </string>
+	<string>265 279 796 486 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 67 1280 710 0 0 1280 777 </string>
+	<string>0 90 1280 687 0 0 1280 777 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>229 184 650 477 0 0 1280 777 </string>
 	<key>New Bookmarks</key>
@@ -1141,7 +1149,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-05-03T09:45:04Z</date>
+	<date>2019-05-04T10:59:34Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
