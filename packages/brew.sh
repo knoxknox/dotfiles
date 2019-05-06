@@ -1,9 +1,11 @@
+brew install fd
 brew install git
 brew install vim
 brew install curl
 brew install tmux
 brew install wget
 brew install httpie
+brew install ripgrep
 
 brew cask install zoom
 brew cask install medis
