@@ -1,4 +1,4 @@
-alias fd="fd"
+alias fi="fd"
 alias ff="rg"
 alias pw="cd ~/code"
 alias vu="vagrant up"
