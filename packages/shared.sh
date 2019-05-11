@@ -32,6 +32,6 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 # rvm
 # rvm install ruby-2.6.3
 # rvm install jruby-9.2.7.0
-url="hkp://keys.gnupg.net"
-key="409B6B1796C275462A1703113804BB82D39DC0E3"
-gpg --keyserver $url --recv-keys $key && curl -sSL https://get.rvm.io | bash -s stable
+name="hkp://pool.sks-keyservers.net"
+keys="409B6B1796C275462A1703113804BB82D39DC0E3 7D2BAF1CF37B13E2069D6956105BD0E739499BDB"
+gpg --keyserver $name --recv-keys $keys && curl -sSL https://get.rvm.io | bash -s stable
