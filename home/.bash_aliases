@@ -1,5 +1,3 @@
-alias fd="fd"
-alias ff="rg"
 alias pw="cd ~/code"
 alias vu="vagrant up"
 alias vs="vagrant ssh"
@@ -18,7 +16,7 @@ ph() {
     local:
       $ git man
       $ fd <file> <path>
-      $ ff -i <text> <path>
+      $ rg -i <text> <path>
       $ grep alias ~/.bash_aliases
     remote:
       $ BRANCH="$1" bundle exec cap stage deploy
