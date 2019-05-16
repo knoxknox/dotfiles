@@ -15,18 +15,12 @@ alias cr="git push origin HEAD:refs/for/master"
 
 ph() {
   echo -e '
-    local:
-      pw: $ cd ~/.
-      vu: $ vagrant up
-      vs: $ vagrant ssh
-      vd: $ vagrant halt
-      vr: $ vagrant rsync-auto
-    review:
-      cz: $ git reset HEAD~1
-      ca: $ git commit --amend
-      cr: $ git push origin HEAD:refs/for/master
-    remote:
-      deploy: $ BRANCH="$1" bundle exec cap stage deploy
-      vagrant: $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
+    help:
+      $ git man
+      $ fd <file> <path>
+      $ ff -i <text> <path>
+      $ grep alias ~/.bash_aliases
+      $ BRANCH="$1" bundle exec cap stage deploy
+      $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
   '
 }
