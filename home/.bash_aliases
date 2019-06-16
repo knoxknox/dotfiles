@@ -17,7 +17,6 @@ ph() {
       $ git man
       $ fd <file> <path>
       $ rg -i <text> <path>
-      $ grep alias ~/.bash_aliases
     remote:
       $ BRANCH="$1" bundle exec cap stage deploy
       $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
