@@ -1,6 +1,6 @@
 ##
 # This is functions to help to work with docker.
-# You need to place this to your profile (~/.profile).
+# You need to place this to your profile (~/.bashrc).
 #
 # Usage:
 # Type `dc` in console (it outputs details and examples).
