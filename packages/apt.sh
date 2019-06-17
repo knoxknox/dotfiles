@@ -13,14 +13,14 @@ apt-get -y install openvpn
 apt-get -y install vagrant
 
 # packages
-tar -zxvf meld-3.20.0.tar.xz
+tar -zxvf meld-3.20.1.tar.xz
 tar -zxvf sublime-text-3_1_1.tar.gz
-tar -zxvf smartgit-linux-18_2_5.tar.gz
+tar -zxvf smartgit-linux-18_2_8.tar.gz
 sudo dpkg -i skype-linux-64.deb
-sudo dpkg -i virtualbox-5.2.18_amd64.deb
-sudo dpkg -i dropbox-2015.10.28_amd64.deb
-sudo dpkg -i google-chrome-stable-70.0_amd64.deb
-sudo dpkg -i mysql-workbench-community-8.0.12_amd64.deb
+sudo dpkg -i virtualbox-6.0.6_amd64.deb
+sudo dpkg -i dropbox_2019.02.14_amd64.deb
+sudo dpkg -i google-chrome-stable-75.0_amd64.deb
+sudo dpkg -i mysql-workbench-community_8.0.16_amd64.deb
 
 # gnome-classic
 apt-get install gnome-shell or gnome-session-fallback
