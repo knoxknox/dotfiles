@@ -12,11 +12,6 @@ apt-get -y install httpie
 apt-get -y install openvpn
 apt-get -y install vagrant
 
-# storage
-apt-get -y install memcached
-apt-get -y install mysql-server
-apt-get -y install redis-server
-
 # packages
 tar -zxvf meld-3.20.0.tar.xz
 tar -zxvf sublime-text-3_1_1.tar.gz
