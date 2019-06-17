@@ -7,12 +7,12 @@ curl -L -s get.jenv.mvnsearch.org | bash
 # pvm
 cd /tmp/
 wget https://bootstrap.pypa.io/get-pip.py
-sudo python get-pip.py && rm /tmp/get-pip.py
+sudo python3 get-pip.py && rm /tmp/get-pip.py
 
 # gvm
 cd /tmp/
-wget https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf /tmp/go1.12.5.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf /tmp/go1.12.6.linux-amd64.tar.gz
 echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.profile
 
 # php
@@ -25,8 +25,8 @@ curl -sS https://getcomposer.org/installer -o composer-setup.php
 sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 
 # nvm
-# nvm install 10.15.3
-# nvm alias default 10.15.3
+# nvm install 10.16.0
+# nvm alias default 10.16.0
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
 
 # rvm
