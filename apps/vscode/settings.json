@@ -19,9 +19,14 @@
   "explorer.enableDragAndDrop": false,
   "explorer.openEditors.visible": 0,
   "files.trimTrailingWhitespace": true,
+  "material-icon-theme.activeIconPack": "none",
+  "material-icon-theme.folders.theme": "classic",
+  "material-icon-theme.opacity": 0.75,
+  "material-icon-theme.saturation": 0.5,
   "workbench.activityBar.visible": true,
   "workbench.colorTheme": "Spacegray Ocean Dark",
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none"
 }
