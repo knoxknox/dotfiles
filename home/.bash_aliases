@@ -9,6 +9,7 @@ alias tc="tmux new-session -s"
 alias td="tmux kill-session -t"
 alias mc="mc -ac -S xoria256"
 alias ca="git commit --amend"
+alias pr="git push origin HEAD -f"
 alias cr="git push origin HEAD:refs/for/master"
 
 ph() {
