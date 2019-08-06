@@ -4,4 +4,4 @@
   name = knoxknox
   email = alexandr_y@mail.ru
 [alias]
-  man = "! less ~/.gitmanual"
+  man = "!cat $HOME/.gitmanual"
