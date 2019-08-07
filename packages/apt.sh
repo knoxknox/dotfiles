@@ -19,8 +19,8 @@ tar -jxvf sublime_text_3_build_3207_x64.tar.bz2
 sudo dpkg -i skypeforlinux-64.deb
 sudo dpkg -i virtualbox-6.0.6_amd64.deb
 sudo dpkg -i dropbox_2019.02.14_amd64.deb
-sudo dpkg -i google-chrome-stable-75.0_amd64.deb
-sudo dpkg -i mysql-workbench-community_8.0.16_amd64.deb
+sudo dpkg -i google-chrome-stable-76.0_amd64.deb
+sudo dpkg -i mysql-workbench-community_8.0.17_amd64.deb
 
 # gnome-classic
 apt-get install gnome-shell or gnome-session-fallback
