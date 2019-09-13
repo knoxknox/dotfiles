@@ -25,7 +25,8 @@ function dc() {
       '
       ;;
     'ls' )
-      docker-compose ps
+      columns='{{.ID}}: {{.Names}}'
+      docker ps --format "table $columns"
       ;;
     'build' )
       docker-compose build
