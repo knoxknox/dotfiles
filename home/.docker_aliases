@@ -22,11 +22,11 @@ function dc() {
         restart - dc restart redis (restarts 1/N containers)
         logs - dc logs redis (shows logs for given container)
         run - dc run redis cat /proc/version (one-time command)
+        table - dc table (prints containers list with id and name)
       '
       ;;
     'ls' )
-      columns='{{.ID}}: {{.Names}}'
-      docker ps --format "table $columns"
+      docker-compose ps
       ;;
     'build' )
       docker-compose build
@@ -48,6 +48,10 @@ function dc() {
       ;;
     'run' )
       docker-compose run --rm ${@:2}
+      ;;
+    'table' )
+      columns='{{.ID}}: {{.Names}}'
+      docker ps --format "table $columns"
       ;;
     * )
       if [ -z "$1" ]; then
