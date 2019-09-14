@@ -22,7 +22,7 @@ function dc() {
         restart - dc restart redis (restarts 1/N containers)
         logs - dc logs redis (shows logs for given container)
         run - dc run redis cat /proc/version (one-time command)
-        table - dc table (prints containers list with id and name)
+        ids - dc ids (prints identifiers of launched containers)
       '
       ;;
     'ls' )
@@ -49,7 +49,7 @@ function dc() {
     'run' )
       docker-compose run --rm ${@:2}
       ;;
-    'table' )
+    'ids' )
       columns='{{.ID}}: {{.Names}}'
       docker ps --format "table $columns"
       ;;
