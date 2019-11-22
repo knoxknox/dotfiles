@@ -27,7 +27,7 @@ sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
 # nvm
 # nvm install 10.16.1
 # nvm alias default 10.16.1
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.34.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
 
 # rvm
 # rvm install ruby-2.6.3
