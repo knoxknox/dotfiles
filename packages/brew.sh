@@ -6,6 +6,7 @@ brew install tmux
 brew install wget
 brew install httpie
 brew install ripgrep
+brew install watchexec
 
 brew cask install zoom
 brew cask install medis
