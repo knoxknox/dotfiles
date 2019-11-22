@@ -16,6 +16,7 @@
   { "keys": ["super+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["super+down"], "command": "select_lines", "args": {"forward": true} },
 
+  { "keys": ["super+0"], "command": "focus_side_bar" },
   { "keys": ["super+'"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["super+;"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": false, "text": "#"} },
   { "keys": ["super+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": false, "text": ":"} },

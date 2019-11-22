@@ -16,6 +16,7 @@
   { "keys": ["alt+up"], "command": "select_lines", "args": {"forward": false} },
   { "keys": ["alt+down"], "command": "select_lines", "args": {"forward": true} },
 
+  { "keys": ["ctrl+0"], "command": "focus_side_bar" },
   { "keys": ["ctrl+'"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
   { "keys": ["ctrl+;"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": false, "text": "#"} },
   { "keys": ["ctrl+g"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": false, "text": ":"} },
