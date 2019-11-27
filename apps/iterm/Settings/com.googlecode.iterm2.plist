@@ -1102,6 +1102,8 @@ Maximize Active Pane</string>
 	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>/Users/ayastreba/Downloads</string>
+	<key>PreserveWindowSizeWhenTabBarVisibilityChanges</key>
+	<true/>
 	<key>Print In Black And White</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -1121,7 +1123,7 @@ Maximize Active Pane</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2019-11-27T18:09:47Z</date>
+	<date>2019-11-27T18:21:09Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>SavePasteHistory</key>
