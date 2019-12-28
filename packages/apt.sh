@@ -14,8 +14,8 @@ apt-get -y install vagrant
 
 # packages
 tar -xvf meld-3.20.1.tar.xz
-tar -zxvf smartgit-linux-18_2_9.tar.gz
-tar -jxvf sublime_text_3_build_3207_x64.tar.bz2
+tar -zxvf smartgit-linux-19_1_5.tar.gz
+tar -jxvf sublime_text_3_build_3211_x64.tar.bz2
 sudo dpkg -i skypeforlinux-64.deb
 sudo dpkg -i virtualbox-6.0.6_amd64.deb
 sudo dpkg -i dropbox_2019.02.14_amd64.deb
