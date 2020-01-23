@@ -15,8 +15,8 @@ ph() {
   echo -e '
     local:
       $ git man
-      $ fd <file> <path>
-      $ rg -i <text> <path>
+      $ fd -i --hidden <file> <path>
+      $ rg -i --hidden <text> <path>
     remote:
       $ BRANCH="$1" bundle exec cap stage deploy
       $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
