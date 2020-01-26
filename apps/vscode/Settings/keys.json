@@ -92,6 +92,10 @@
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
+    "key": "cmd+t",
+    "command": "workbench.action.files.newUntitledFile"
+  },
+  {
     "key": "escape",
     "command": "workbench.action.focusActiveEditorGroup",
     "when": "explorerViewletFocus"
