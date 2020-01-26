@@ -162,6 +162,10 @@
     "command": "workbench.action.quickOpen"
   },
   {
+    "key": "cmd+p",
+    "command": "workbench.action.quickOpen"
+  },
+  {
     "key": "alt+'",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
