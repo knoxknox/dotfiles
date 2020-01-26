@@ -92,6 +92,11 @@
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
+    "key": "escape",
+    "command": "workbench.action.closePanel",
+    "when": "searchViewletFocus && searchViewletVisible"
+  },
+  {
     "key": "cmd+t",
     "command": "workbench.action.files.newUntitledFile"
   },
