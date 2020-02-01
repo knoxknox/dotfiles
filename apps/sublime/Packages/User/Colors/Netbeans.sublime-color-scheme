@@ -16,9 +16,9 @@
       "foreground": "#969696"
     },
     {
-      "name": "Keyword",
-      "scope": "keyword, storage",
-      "foreground": "#0000E6"
+      "name": "String",
+      "scope": "string",
+      "foreground": "#C87D00"
     },
     {
       "name": "Number",
@@ -27,15 +27,15 @@
       "foreground": "#000000"
     },
     {
-      "name": "User-defined constant",
-      "scope": "constant",
-      "foreground": "#2D96C8"
-    },
-    {
       "name": "Built-in constant",
       "scope": "constant.language",
       "font_style": "bold",
       "foreground": "#585CF6"
+    },
+    {
+      "name": "User-defined constant",
+      "scope": "constant.character, constant.other",
+      "foreground": "#2D96C8"
     },
     {
       "name": "Variable",
@@ -48,27 +48,14 @@
       "foreground": "#0000FF"
     },
     {
-      "name": "String",
-      "scope": "string",
-      "foreground": "#C87D00"
+      "name": "Keyword",
+      "scope": "keyword, storage",
+      "foreground": "#0000E6"
     },
     {
-      "name": "String interpolation",
-      "scope": "constant.character.escape, string source",
-      "font_style": "",
-      "foreground": "#26B31A"
-    },
-    {
-      "name": "Preprocessor line",
-      "scope": "meta.preprocessor",
-      "font_style": "",
-      "foreground": "#1A921C"
-    },
-    {
-      "name": "Preprocessor directive",
-      "scope": "keyword.control.import",
-      "font_style": "bold",
-      "foreground": "#0C450D"
+      "name": "Type name",
+      "scope": "entity.name.type",
+      "font_style": "underline"
     },
     {
       "name": "Class name",
@@ -83,29 +70,13 @@
       "foreground": "#000000"
     },
     {
-      "name": "Type name",
-      "scope": "entity.name.type",
-      "font_style": "underline"
-    },
-    {
-      "name": "Inherited class name",
+      "name": "Inherited class",
       "scope": "entity.other.inherited-class",
       "font_style": "italic"
     },
     {
-      "name": "Function parameter",
+      "name": "Function argument",
       "scope": "variable.parameter",
-      "font_style": "italic"
-    },
-    {
-      "name": "Function argument and result types",
-      "scope": "storage.type.method",
-      "font_style": "",
-      "foreground": "#70727E"
-    },
-    {
-      "name": "Section",
-      "scope": "meta.section entity.name.section, declaration.section entity.name.section",
       "font_style": "italic"
     },
     {
@@ -130,6 +101,29 @@
       "scope": "support.variable",
       "font_style": "bold",
       "foreground": "#21439C"
+    },
+    {
+      "name": "Preprocessor line",
+      "scope": "meta.preprocessor",
+      "font_style": "",
+      "foreground": "#1A921C"
+    },
+    {
+      "name": "Preprocessor directive",
+      "scope": "keyword.control.import",
+      "font_style": "bold",
+      "foreground": "#0C450D"
+    },
+    {
+      "name": "String interpolation",
+      "scope": "constant.character.escape, string source",
+      "font_style": "",
+      "foreground": "#26B31A"
+    },
+    {
+      "name": "Section",
+      "scope": "meta.section entity.name.section, declaration.section entity.name.section",
+      "font_style": "italic"
     },
     {
       "name": "JS: Operator",
