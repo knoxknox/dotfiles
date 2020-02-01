@@ -1,0 +1,226 @@
+{
+  "author": "Alex Y.",
+  "name": "NetBeans Theme",
+  "globals": {
+    "selection": "#4D97FF54",
+    "line_highlight": "#00000012",
+    "background": "#FFFFFF",
+    "foreground": "#000000",
+    "invisibles": "#BFBFBF",
+    "caret": "#000000"
+  },
+  "rules": [
+    {
+      "name": "Comment",
+      "scope": "comment",
+      "foreground": "#969696"
+    },
+    {
+      "name": "Keyword",
+      "scope": "keyword, storage",
+      "foreground": "#0000E6"
+    },
+    {
+      "name": "Number",
+      "scope": "constant.numeric",
+      "fontStyle": "",
+      "foreground": "#000000"
+    },
+    {
+      "name": "User-defined constant",
+      "scope": "constant",
+      "foreground": "#2D96C8"
+    },
+    {
+      "name": "Built-in constant",
+      "scope": "constant.language",
+      "fontStyle": "bold",
+      "foreground": "#585CF6"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable.other",
+      "foreground": "#318495"
+    },
+    {
+      "name": "Variable",
+      "scope": "variable.language",
+      "foreground": "#0000FF"
+    },
+    {
+      "name": "String",
+      "scope": "string",
+      "foreground": "#C87D00"
+    },
+    {
+      "name": "String interpolation",
+      "scope": "constant.character.escape, string source",
+      "fontStyle": "",
+      "foreground": "#26B31A"
+    },
+    {
+      "name": "Preprocessor line",
+      "scope": "meta.preprocessor",
+      "fontStyle": "",
+      "foreground": "#1A921C"
+    },
+    {
+      "name": "Preprocessor directive",
+      "scope": "keyword.control.import",
+      "fontStyle": "bold",
+      "foreground": "#0C450D"
+    },
+    {
+      "name": "Entity name",
+      "scope": "entity.name.class",
+      "fontStyle": "bold",
+      "foreground": "#6D79DE"
+    },
+    {
+      "name": "Function name",
+      "scope": "entity.name.function, support.function.any-method",
+      "fontStyle": "bold",
+      "foreground": "#000000"
+    },
+    {
+      "name": "Type name",
+      "scope": "entity.name.type",
+      "fontStyle": "underline"
+    },
+    {
+      "name": "Inherited class name",
+      "scope": "entity.other.inherited-class",
+      "fontStyle": "italic"
+    },
+    {
+      "name": "Function parameter",
+      "scope": "variable.parameter",
+      "fontStyle": "italic"
+    },
+    {
+      "name": "Function argument and result types",
+      "scope": "storage.type.method",
+      "fontStyle": "",
+      "foreground": "#70727E"
+    },
+    {
+      "name": "Section",
+      "scope": "meta.section entity.name.section, declaration.section entity.name.section",
+      "fontStyle": "italic"
+    },
+    {
+      "name": "Library function",
+      "scope": "support.function",
+      "foreground": "#000000"
+    },
+    {
+      "name": "Library object",
+      "scope": "support.class, support.type",
+      "fontStyle": "bold",
+      "foreground": "#6D79DE"
+    },
+    {
+      "name": "Library constant",
+      "scope": "support.constant",
+      "fontStyle": "bold",
+      "foreground": "#06960E"
+    },
+    {
+      "name": "Library variable",
+      "scope": "support.variable",
+      "fontStyle": "bold",
+      "foreground": "#21439C"
+    },
+    {
+      "name": "JS: Operator",
+      "scope": "keyword.operator.js",
+      "foreground": "#687687"
+    },
+    {
+      "name": "Invalid",
+      "scope": "invalid",
+      "background": "#990000",
+      "foreground": "#FFFFFF"
+    },
+    {
+      "name": "Invalid trailing whitespace",
+      "scope": "invalid.deprecated.trailing-whitespace",
+      "background": "#FFD0D0"
+    },
+    {
+      "name": "Embedded source",
+      "scope": "text source, string.unquoted",
+      "background": "#0000000D"
+    },
+    {
+      "name": "Embedded embedded source",
+      "scope": "text source string.unquoted, text source text source",
+      "background": "#0000000F"
+    },
+    {
+      "name": "Markup XML declaration",
+      "scope": "meta.tag.preprocessor.xml",
+      "fontStyle": "",
+      "foreground": "#68685B"
+    },
+    {
+      "name": "Markup DOCTYPE",
+      "scope": "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string",
+      "fontStyle": "",
+      "foreground": "#888888"
+    },
+    {
+      "name": "Markup DTD",
+      "scope": "string.quoted.docinfo.doctype.DTD",
+      "fontStyle": "italic"
+    },
+    {
+      "name": "Markup tag",
+      "scope": "meta.tag, declaration.tag",
+      "fontStyle": "",
+      "foreground": "#1C02FF"
+    },
+    {
+      "name": "Markup name of tag",
+      "scope": "entity.name.tag",
+      "fontStyle": "bold"
+    },
+    {
+      "name": "Markup tag attribute",
+      "scope": "entity.other.attribute-name",
+      "fontStyle": "italic"
+    },
+    {
+      "name": "Markup: Heading",
+      "scope": "markup.heading",
+      "fontStyle": "bold",
+      "foreground": "#0C07FF"
+    },
+    {
+      "name": "Markup: Quote",
+      "scope": "markup.quote",
+      "fontStyle": "italic",
+      "foreground": "#000000"
+    },
+    {
+      "name": "Markup: List",
+      "scope": "markup.list",
+      "foreground": "#B90690"
+    },
+    {
+      "name": "GitGutter changed",
+      "scope": "markup.changed.git_gutter",
+      "foreground": "#A1A744"
+    },
+    {
+      "name": "GitGutter deleted",
+      "scope": "markup.deleted.git_gutter",
+      "foreground": "#A75844"
+    },
+    {
+      "name": "GitGutter inserted",
+      "scope": "markup.inserted.git_gutter",
+      "foreground": "#44A744"
+    }
+  ]
+}
