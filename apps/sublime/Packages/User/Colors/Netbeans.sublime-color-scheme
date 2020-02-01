@@ -1,13 +1,13 @@
 {
+  "name": "NetBeans",
   "author": "Alex Y.",
-  "name": "NetBeans Theme",
   "globals": {
-    "selection": "#4D97FF54",
-    "line_highlight": "#00000012",
+    "caret": "#000000",
     "background": "#FFFFFF",
     "foreground": "#000000",
     "invisibles": "#BFBFBF",
-    "caret": "#000000"
+    "selection": "#4D97FF54",
+    "line_highlight": "#00000012"
   },
   "rules": [
     {
@@ -71,7 +71,7 @@
       "foreground": "#0C450D"
     },
     {
-      "name": "Entity name",
+      "name": "Class name",
       "scope": "entity.name.class",
       "font_style": "bold",
       "foreground": "#6D79DE"
