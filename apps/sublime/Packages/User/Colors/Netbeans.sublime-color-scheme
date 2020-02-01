@@ -23,7 +23,7 @@
     {
       "name": "Number",
       "scope": "constant.numeric",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#000000"
     },
     {
@@ -34,7 +34,7 @@
     {
       "name": "Built-in constant",
       "scope": "constant.language",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#585CF6"
     },
     {
@@ -55,58 +55,58 @@
     {
       "name": "String interpolation",
       "scope": "constant.character.escape, string source",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#26B31A"
     },
     {
       "name": "Preprocessor line",
       "scope": "meta.preprocessor",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#1A921C"
     },
     {
       "name": "Preprocessor directive",
       "scope": "keyword.control.import",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#0C450D"
     },
     {
       "name": "Entity name",
       "scope": "entity.name.class",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#6D79DE"
     },
     {
       "name": "Function name",
       "scope": "entity.name.function, support.function.any-method",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#000000"
     },
     {
       "name": "Type name",
       "scope": "entity.name.type",
-      "fontStyle": "underline"
+      "font_style": "underline"
     },
     {
       "name": "Inherited class name",
       "scope": "entity.other.inherited-class",
-      "fontStyle": "italic"
+      "font_style": "italic"
     },
     {
       "name": "Function parameter",
       "scope": "variable.parameter",
-      "fontStyle": "italic"
+      "font_style": "italic"
     },
     {
       "name": "Function argument and result types",
       "scope": "storage.type.method",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#70727E"
     },
     {
       "name": "Section",
       "scope": "meta.section entity.name.section, declaration.section entity.name.section",
-      "fontStyle": "italic"
+      "font_style": "italic"
     },
     {
       "name": "Library function",
@@ -116,19 +116,19 @@
     {
       "name": "Library object",
       "scope": "support.class, support.type",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#6D79DE"
     },
     {
       "name": "Library constant",
       "scope": "support.constant",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#06960E"
     },
     {
       "name": "Library variable",
       "scope": "support.variable",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#21439C"
     },
     {
@@ -160,46 +160,46 @@
     {
       "name": "Markup XML declaration",
       "scope": "meta.tag.preprocessor.xml",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#68685B"
     },
     {
       "name": "Markup DOCTYPE",
       "scope": "meta.tag.sgml.doctype, meta.tag.sgml.doctype entity, meta.tag.sgml.doctype string, meta.tag.preprocessor.xml, meta.tag.preprocessor.xml entity, meta.tag.preprocessor.xml string",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#888888"
     },
     {
       "name": "Markup DTD",
       "scope": "string.quoted.docinfo.doctype.DTD",
-      "fontStyle": "italic"
+      "font_style": "italic"
     },
     {
       "name": "Markup tag",
       "scope": "meta.tag, declaration.tag",
-      "fontStyle": "",
+      "font_style": "",
       "foreground": "#1C02FF"
     },
     {
       "name": "Markup name of tag",
       "scope": "entity.name.tag",
-      "fontStyle": "bold"
+      "font_style": "bold"
     },
     {
       "name": "Markup tag attribute",
       "scope": "entity.other.attribute-name",
-      "fontStyle": "italic"
+      "font_style": "italic"
     },
     {
       "name": "Markup: Heading",
       "scope": "markup.heading",
-      "fontStyle": "bold",
+      "font_style": "bold",
       "foreground": "#0C07FF"
     },
     {
       "name": "Markup: Quote",
       "scope": "markup.quote",
-      "fontStyle": "italic",
+      "font_style": "italic",
       "foreground": "#000000"
     },
     {
