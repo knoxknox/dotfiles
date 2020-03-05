@@ -1,0 +1,5 @@
+<snippet>
+  <scope>source.elixir</scope>
+  <tabTrigger>bb</tabTrigger>
+  <content><![CDATA[require IEx; IEx.pry]]></content>
+</snippet>

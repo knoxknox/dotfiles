@@ -1,0 +1,5 @@
+<snippet>
+  <scope>source.go</scope>
+  <tabTrigger>bb</tabTrigger>
+  <content><![CDATA[runtime.Breakpoint() // import "runtime"]]></content>
+</snippet>
