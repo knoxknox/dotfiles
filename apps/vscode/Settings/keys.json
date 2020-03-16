@@ -82,6 +82,11 @@
     "command": "editor.action.transformToUppercase"
   },
   {
+    "key": "shift+cmd+f",
+    "command": "search.action.openNewEditor",
+    "when": "!searchViewletVisible"
+  },
+  {
     "key": "backspace",
     "command": "moveFileToTrash",
     "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
