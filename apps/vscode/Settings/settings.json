@@ -26,7 +26,6 @@
   "material-icon-theme.folders.theme": "classic",
   "material-icon-theme.opacity": 0.75,
   "material-icon-theme.saturation": 0.5,
-  "search.location": "panel",
   "search.searchOnType": false,
   "search.showLineNumbers": true,
   "workbench.activityBar.visible": false,
