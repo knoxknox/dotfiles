@@ -11,8 +11,8 @@ sudo python3 get-pip.py && rm /tmp/get-pip.py
 
 # gvm
 cd /tmp/
-wget https://dl.google.com/go/go1.13.8.linux-amd64.tar.gz
-sudo tar -C /usr/local -xzf /tmp/go1.13.8.linux-amd64.tar.gz
+wget https://dl.google.com/go/go1.14.1.linux-amd64.tar.gz
+sudo tar -C /usr/local -xzf /tmp/go1.14.1.linux-amd64.tar.gz
 echo 'export PATH="$PATH:/usr/local/go/bin"' >> $HOME/.profile
 
 # php
