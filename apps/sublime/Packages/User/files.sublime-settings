@@ -1,0 +1,5 @@
+{
+  "ignore_case": true,
+  "default_root": "current",
+  "rename_default": "<filename>"
+}
