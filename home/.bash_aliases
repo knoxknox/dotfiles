@@ -17,6 +17,9 @@ ph() {
       $ git man
       $ fd <file> <path>
       $ rg <text> <path>
+    editor:
+      $ fd -t file <pattern> -x subl
+      $ rg -l <pattern> | xargs subl
     remote:
       $ BRANCH="$1" bundle exec cap staging deploy
       $ scp -r -P 2222 vagrant@127.0.0.1:/remote/ ~/local
