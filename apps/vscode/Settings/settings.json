@@ -1,10 +1,10 @@
 {
   "breadcrumbs.enabled": false,
-  "editor.autoIndent": false,
+  "editor.autoIndent": "none",
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.links": false,
-  "editor.matchBrackets": false,
+  "editor.matchBrackets": "never",
   "editor.minimap.maxColumn": 100,
   "editor.minimap.showSlider": "always",
   "editor.mouseWheelScrollSensitivity": 0.5,
