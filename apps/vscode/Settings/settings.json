@@ -1,6 +1,7 @@
 {
   "breadcrumbs.enabled": false,
   "editor.autoIndent": "none",
+  "editor.colorDecorators": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.links": false,
