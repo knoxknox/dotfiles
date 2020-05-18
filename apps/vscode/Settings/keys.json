@@ -304,6 +304,15 @@
     "command": "-workbench.action.quickOpen"
   },
   {
+    "key": "ctrl+shift+`",
+    "command": "-workbench.action.terminal.new"
+  },
+  {
+    "key": "shift+cmd+c",
+    "command": "-workbench.action.terminal.openNativeConsole",
+    "when": "!terminalFocus"
+  },
+  {
     "key": "shift+cmd+d",
     "command": "-workbench.view.debug"
   },
