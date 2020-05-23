@@ -82,6 +82,16 @@
     "command": "editor.action.transformToUppercase"
   },
   {
+    "key": "ctrl+down",
+    "command": "scrollPageDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "scrollPageUp",
+    "when": "textInputFocus"
+  },
+  {
     "key": "shift+cmd+f",
     "command": "search.action.openNewEditor",
     "when": "!searchViewletVisible"
