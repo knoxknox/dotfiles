@@ -3,6 +3,7 @@
   "editor.autoIndent": "none",
   "editor.colorDecorators": false,
   "editor.copyWithSyntaxHighlighting": false,
+  "editor.cursorWidth": 1,
   "editor.find.addExtraSpaceOnTop": false,
   "editor.links": false,
   "editor.matchBrackets": "never",
