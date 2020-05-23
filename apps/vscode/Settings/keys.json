@@ -171,6 +171,10 @@
     "command": "workbench.action.quickOpen"
   },
   {
+    "key": "cmd+k cmd+b",
+    "command": "workbench.action.toggleSidebarVisibility"
+  },
+  {
     "key": "alt+'",
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
@@ -327,6 +331,10 @@
     "key": "shift+cmd+c",
     "command": "-workbench.action.terminal.openNativeConsole",
     "when": "!terminalFocus"
+  },
+  {
+    "key": "cmd+b",
+    "command": "-workbench.action.toggleSidebarVisibility"
   },
   {
     "key": "shift+cmd+d",
