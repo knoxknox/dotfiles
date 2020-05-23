@@ -5,6 +5,7 @@
   "editor.copyWithSyntaxHighlighting": false,
   "editor.cursorWidth": 1,
   "editor.find.addExtraSpaceOnTop": false,
+  "editor.highlightActiveIndentGuide": false,
   "editor.links": false,
   "editor.matchBrackets": "never",
   "editor.minimap.maxColumn": 100,
