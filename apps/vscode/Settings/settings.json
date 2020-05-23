@@ -30,6 +30,7 @@
   "material-icon-theme.saturation": 0.5,
   "search.searchOnType": false,
   "search.showLineNumbers": true,
+  "window.title": "${activeEditorLong}",
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Spacegray Ocean Dark",
   "workbench.editor.highlightModifiedTabs": true,
