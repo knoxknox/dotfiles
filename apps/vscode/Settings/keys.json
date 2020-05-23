@@ -40,17 +40,7 @@
     "when": "editorTextFocus"
   },
   {
-    "key": "ctrl+shift+up",
-    "command": "editor.action.insertCursorAbove",
-    "when": "editorTextFocus"
-  },
-  {
     "key": "cmd+down",
-    "command": "editor.action.insertCursorBelow",
-    "when": "editorTextFocus"
-  },
-  {
-    "key": "ctrl+shift+down",
     "command": "editor.action.insertCursorBelow",
     "when": "editorTextFocus"
   },
@@ -90,6 +80,16 @@
   {
     "key": "cmd+k cmd+u",
     "command": "editor.action.transformToUppercase"
+  },
+  {
+    "key": "ctrl+shift+down",
+    "command": "scrollLineDown",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "ctrl+shift+up",
+    "command": "scrollLineUp",
+    "when": "textInputFocus"
   },
   {
     "key": "ctrl+down",
