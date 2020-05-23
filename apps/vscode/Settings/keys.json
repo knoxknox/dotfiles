@@ -30,7 +30,7 @@
     "when": "editorTextFocus && !editorReadonly"
   },
   {
-    "key": "ctrl+shift+k",
+    "key": "shift+ctrl+k",
     "command": "editor.action.deleteLines",
     "when": "textInputFocus && !editorReadonly"
   },
@@ -65,7 +65,7 @@
     "when": "editorFocus"
   },
   {
-    "key": "ctrl+shift+m",
+    "key": "shift+ctrl+m",
     "command": "editor.action.smartSelect.expand",
     "when": "editorTextFocus"
   },
@@ -82,12 +82,12 @@
     "command": "editor.action.transformToUppercase"
   },
   {
-    "key": "ctrl+shift+down",
+    "key": "shift+ctrl+down",
     "command": "scrollLineDown",
     "when": "textInputFocus"
   },
   {
-    "key": "ctrl+shift+up",
+    "key": "shift+ctrl+up",
     "command": "scrollLineUp",
     "when": "textInputFocus"
   },
@@ -179,7 +179,7 @@
     "command": "workbench.action.openEditorAtIndex9"
   },
   {
-    "key": "ctrl+shift+tab",
+    "key": "shift+ctrl+tab",
     "command": "workbench.action.previousEditor"
   },
   {
@@ -344,7 +344,7 @@
     "command": "-workbench.action.quickOpen"
   },
   {
-    "key": "ctrl+shift+`",
+    "key": "shift+ctrl+`",
     "command": "-workbench.action.terminal.new"
   },
   {
@@ -369,7 +369,7 @@
     "command": "-workbench.view.extensions"
   },
   {
-    "key": "ctrl+shift+g",
+    "key": "shift+ctrl+g",
     "command": "-workbench.view.scm"
   },
   {
