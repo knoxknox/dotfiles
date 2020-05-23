@@ -55,6 +55,11 @@
     "when": "editorTextFocus"
   },
   {
+    "key": "ctrl+m",
+    "command": "editor.action.jumpToBracket",
+    "when": "editorTextFocus"
+  },
+  {
     "key": "shift+cmd+down",
     "command": "editor.action.moveLinesDownAction",
     "when": "editorTextFocus && !editorReadonly"
@@ -68,6 +73,11 @@
     "key": "alt+f3",
     "command": "editor.action.selectHighlights",
     "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+shift+m",
+    "command": "editor.action.smartSelect.expand",
+    "when": "editorTextFocus"
   },
   {
     "key": "f9",
