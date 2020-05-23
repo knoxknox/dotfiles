@@ -33,6 +33,7 @@
   "window.title": "${activeEditorLong}",
   "workbench.activityBar.visible": false,
   "workbench.colorTheme": "Spacegray Ocean Dark",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
