@@ -5,6 +5,7 @@ Theme:
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 Plugins:
+[devdocs](https://marketplace.visualstudio.com/items?itemName=deibit.devdocs),
 [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls),
 [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir),
 [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby),
