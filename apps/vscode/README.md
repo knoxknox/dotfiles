@@ -7,5 +7,7 @@ Theme:
 Plugins:
 [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls),
 [vscode-elixir](https://marketplace.visualstudio.com/items?itemName=mjmcloug.vscode-elixir),
+[VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby),
+[Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph),
 [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils),
 [Copy Relative Path](https://marketplace.visualstudio.com/items?itemName=alexdima.copy-relative-path)
