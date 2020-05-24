@@ -13,7 +13,7 @@
   "editor.mouseWheelScrollSensitivity": 0.5,
   "editor.occurrencesHighlight": false,
   "editor.renderLineHighlight": "gutter",
-  "editor.renderWhitespace": "none",
+  "editor.renderWhitespace": "selection",
   "editor.roundedSelection": false,
   "editor.scrollBeyondLastLine": false,
   "editor.smoothScrolling": true,
