@@ -6,6 +6,7 @@ mac os configuration: `~/Library/Application Support/Sublime Text 3/Packages`
 
 Plugins:
 [Package Control](https://packagecontrol.io),
+[DevDocs](https://packagecontrol.io/packages/DevDocs),
 [GitGutter](https://packagecontrol.io/packages/GitGutter),
 [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile),
 [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete),
