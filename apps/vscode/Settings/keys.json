@@ -199,24 +199,8 @@
     "command": "workbench.files.action.showActiveFileInExplorer"
   },
   {
-    "key": "alt+3",
-    "command": "workbench.view.debug"
-  },
-  {
     "key": "cmd+0",
     "command": "workbench.view.explorer"
-  },
-  {
-    "key": "alt+1",
-    "command": "workbench.view.explorer"
-  },
-  {
-    "key": "alt+4",
-    "command": "workbench.view.extensions"
-  },
-  {
-    "key": "alt+2",
-    "command": "workbench.view.search"
   },
   {
     "key": "ctrl+e",
