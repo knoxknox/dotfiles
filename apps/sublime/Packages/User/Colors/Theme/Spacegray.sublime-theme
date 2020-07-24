@@ -1,0 +1,19 @@
+[
+  {
+    "class": "puck_control",
+    "content_margin": [4, 0]
+  },
+  {
+    "class": "puck_control",
+    "content_margin": [0, 4],
+    "attributes": ["horizontal"]
+  },
+  {
+    "class": "status_bar",
+    "content_margin": [4, 1, 4, 1]
+  },
+  {
+    "class": "scroll_bar_control",
+    "content_margin": [1, 1, 1, 1]
+  }
+]
