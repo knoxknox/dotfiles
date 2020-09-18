@@ -15,7 +15,6 @@ brew cask install iterm2
 brew cask install postico
 brew cask install vagrant
 brew cask install smartgit
-brew cask install spectacle
 brew cask install viscosity
 brew cask install sequel-pro
 brew cask install virtualbox
