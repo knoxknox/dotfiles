@@ -104,33 +104,19 @@ Maximize Active Pane</string>
 			<key>Text</key>
 			<string></string>
 		</dict>
-		<key>0xf702-0x2a0000</key>
-		<dict>
-			<key>Action</key>
-			<integer>11</integer>
-			<key>Text</key>
-			<string>0x17</string>
-		</dict>
 		<key>0xf702-0x300000</key>
 		<dict>
 			<key>Action</key>
-			<integer>11</integer>
+			<integer>18</integer>
 			<key>Text</key>
-			<string>0x01</string>
-		</dict>
-		<key>0xf703-0x2a0000</key>
-		<dict>
-			<key>Action</key>
-			<integer>10</integer>
-			<key>Text</key>
-			<string>d</string>
+			<string></string>
 		</dict>
 		<key>0xf703-0x300000</key>
 		<dict>
 			<key>Action</key>
-			<integer>11</integer>
+			<integer>19</integer>
 			<key>Text</key>
-			<string>0x05</string>
+			<string></string>
 		</dict>
 		<key>0xf729-0x100000</key>
 		<dict>
