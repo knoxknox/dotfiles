@@ -1,5 +1,5 @@
 ruby 2.7.4
-golang 1.15
+golang 1.17
 erlang 24.1
 python 3.9.6
 elixir 1.12.3
