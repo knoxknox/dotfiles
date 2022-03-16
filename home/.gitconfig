@@ -2,6 +2,6 @@
   editor = vim
 [user]
   name = knoxknox
-  email = alexandr_y@mail.ru
+  email = alexandr_y@hotmail.com
 [alias]
   man = "!cat $HOME/.gitmanual"
