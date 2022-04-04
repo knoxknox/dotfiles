@@ -1,14 +1,15 @@
 # Theme activation
 
-Copy `FileIcons` folder to the `Packages/FileIcons`.<br/>
-Copy next settings to the default settings to activate theme:
+## Default Theme
+
+There are no additional settings for default theme.
+
+## Spacegray Theme
+
+Insert next options to the settings activate spacegray theme.
 ```
 "spacegray_fileicons": true,
 "spacegray_tabs_large": true,
 "theme": "Spacegray.sublime-theme",
 "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme"
 ```
-
-References:
-- https://github.com/braver/FileIcons
-- https://github.com/kkga/spacegray/blob/master/Spacegray.sublime-theme
