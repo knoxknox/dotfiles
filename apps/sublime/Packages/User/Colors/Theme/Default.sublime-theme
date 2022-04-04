@@ -1,0 +1,89 @@
+[
+  {
+    "class": "sidebar_label",
+    "font.size": 11
+  },
+  {
+    "class": "sidebar_heading",
+    "font.size": 11
+  },
+  {
+    "class": "sidebar_tree",
+    "indent": 12,
+    "indent_offset": 17,
+    "dark_content": false,
+    "indent_top_level": false,
+    "row_padding": [8, 3],
+    "layer0.opacity": 1.0,
+    "layer0.tint": [230, 230, 230]
+  },
+  {
+    "class": "sidebar_container",
+    "layer0.tint": [80, 80, 80],
+    "content_margin": [0, -10, 1, -10]
+  },
+  {
+    "class": "icon_folder",
+    "layer0.opacity": 0.25,
+    "content_margin": [7, 6]
+  },
+  {
+    "class": "icon_file_type",
+    "layer0.opacity": 0.25,
+    "layer0.tint": [0, 0, 0],
+    "content_margin": [7, 7]
+  },
+  {
+    "class": "icon_file_type",
+    "layer0.opacity": 0.5,
+    "parents": [{"class": "tree_row", "attributes": ["hover"]}]
+  },
+  {
+    "class": "icon_file_type",
+    "layer0.opacity": 1.0,
+    "layer0.tint": [255, 255, 255],
+    "parents": [{"class": "tree_row", "attributes": ["selected"]}]
+  },
+  {
+    "class": "tabset_control",
+    "layer1.opacity": 0.5,
+    "layer1.tint": [120, 120, 120]
+  },
+  {
+    "class": "tab_control",
+    "layer1.tint": [180, 180, 180],
+    "content_margin": [21, 8, 21, 4]
+  },
+  {
+    "class": "tab_control",
+    "attributes": ["selected"],
+    "layer1.opacity": 1.0,
+    "layer1.tint": [255, 255, 255]
+  },
+  {
+    "class": "tab_label",
+    "fg": [80, 80, 80, 255]
+  },
+  {
+    "class": "tab_label",
+    "fg": [0, 0, 0, 255],
+    "parents": [{"class": "tab_control", "attributes": ["selected"]}]
+  },
+  {
+    "class": "minimap_control",
+    "viewport_opacity": 1.0,
+    "viewport_color": [68, 68, 68, 96],
+    "settings": ["always_show_minimap_viewport"]
+  },
+  {
+    "class": "status_bar",
+    "layer0.opacity": 1.0,
+    "layer0.tint": [100, 100, 100],
+    "content_margin": [4, 1, 4, 1]
+  },
+  {
+    "class": "label_control",
+    "fg": [255, 255, 255],
+    "parents": [{"class": "status_bar"}]
+  }
+]
