@@ -62,11 +62,11 @@
   },
   {
     "class": "tab_label",
-    "fg": [80, 80, 80, 255]
+    "fg": [80, 80, 80]
   },
   {
     "class": "tab_label",
-    "fg": [0, 0, 0, 255],
+    "fg": [0, 0, 0],
     "parents": [{"class": "tab_control", "attributes": ["selected"]}]
   },
   {
