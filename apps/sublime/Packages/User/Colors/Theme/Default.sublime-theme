@@ -51,6 +51,7 @@
   },
   {
     "class": "tab_control",
+    "layer2.opacity": 0,
     "layer1.tint": [180, 180, 180],
     "content_margin": [21, 8, 21, 4]
   },
@@ -68,6 +69,12 @@
     "class": "tab_label",
     "fg": [0, 0, 0],
     "parents": [{"class": "tab_control", "attributes": ["selected"]}]
+  },
+  {
+    "class": "tab_label",
+    "fg": [255, 0, 0],
+    "settings": ["highlight_modified_tabs"],
+    "parents": [{"class": "tab_control", "attributes": ["dirty"]}]
   },
   {
     "class": "minimap_control",
