@@ -1,0 +1,5 @@
+[
+  { "caption": "-" },
+  { "caption": "Create", "command": "advanced_new_file_new" },
+  { "caption": "Duplicate", "command": "advanced_new_file_copy" }
+]
