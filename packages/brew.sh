@@ -1,3 +1,4 @@
+brew install jq
 brew install fd
 brew install git
 brew install vim
