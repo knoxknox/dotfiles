@@ -1,6 +1,7 @@
 brew install fd
 brew install git
 brew install vim
+brew install asdf
 brew install curl
 brew install tmux
 brew install wget
