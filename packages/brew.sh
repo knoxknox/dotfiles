@@ -7,6 +7,7 @@ brew install curl
 brew install tmux
 brew install wget
 brew install httpie
+brew install icdiff
 brew install ripgrep
 brew install watchexec
 
