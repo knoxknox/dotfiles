@@ -1,4 +1,5 @@
 # bin
+apt-get -y install jq
 apt-get -y install mc
 apt-get -y install git
 apt-get -y install vim
@@ -8,6 +9,7 @@ apt-get -y install wget
 apt-get -y install unzip
 apt-get -y install docker
 apt-get -y install httpie
+apt-get -y install icdiff
 apt-get -y install openvpn
 apt-get -y install ripgrep
 apt-get -y install vagrant
