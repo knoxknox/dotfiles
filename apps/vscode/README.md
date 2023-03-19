@@ -5,6 +5,7 @@ Theme:
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 Plugins:
+[Go](https://code.visualstudio.com/docs/languages/go),
 [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls),
 [VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby),
 [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph),
