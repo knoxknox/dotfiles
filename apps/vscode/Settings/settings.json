@@ -38,6 +38,7 @@
   "workbench.colorTheme": "Spacegray Ocean Dark",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.untitled.hint": "hidden",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none"
