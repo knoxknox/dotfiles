@@ -24,7 +24,6 @@ Pull/Push:
   git push origin HEAD -f    - force push
   git push <remote> <branch> - publish changes
   git pull <remote> <branch> - download changes
-  git push origin HEAD:refs/for/master - code review
 
 Merge/Rebase:
   git merge master           - merge changes
