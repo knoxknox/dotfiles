@@ -27,5 +27,6 @@ Pull/Push:
   git push origin HEAD:refs/for/master - code review
 
 Merge/Rebase:
+  git merge master           - merge changes
   git rebase master -i       - rebase changes
   git cherry-pick <commit>   - cherry-pick changes
