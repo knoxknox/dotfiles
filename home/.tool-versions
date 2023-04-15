@@ -1,4 +1,4 @@
-ruby 2.7.7
+ruby 3.2.1
 golang 1.20
 erlang 25.0
 elixir 1.13.4
