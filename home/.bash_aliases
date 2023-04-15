@@ -6,10 +6,10 @@ alias tl="tmux ls"
 alias ta="tmux attach -t"
 alias tc="tmux new-session -s"
 alias td="tmux kill-session -t"
-alias ca="git commit --amend"
-alias cr="git push origin HEAD -f"
 alias fd="fd -i --hidden --no-ignore-vcs"
 alias rg="rg -i --hidden --no-ignore-vcs"
+alias ca="git commit --amend"
+alias cr="git push origin HEAD --force-with-lease"
 
 ph() {
   echo -e '
