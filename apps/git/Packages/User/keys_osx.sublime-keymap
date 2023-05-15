@@ -16,7 +16,7 @@
 
   { "keys": ["super+k"], "command": "commit", "args": {"mode": "commit"} },
   { "keys": ["super+shift+up"], "command": "git", "args": {"argv": ["push", "-u", "origin", "$head"]} },
-  { "keys": ["super+shift+down"], "command": "git", "args": {"argv": ["fetch", "--prune", "--progress", "origin"]} },
+  { "keys": ["super+shift+down"], "command": "git", "args": {"argv": ["pull", "--ff-only", "--autostash"]} },
 
   { "keys": ["f7"], "command": "show_command_palette", "args": {"command": "create_branch"} },
   { "keys": ["f8"], "command": "show_command_palette", "args": {"command": "delete_branch"} },
