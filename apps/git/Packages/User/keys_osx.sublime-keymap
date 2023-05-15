@@ -1,0 +1,25 @@
+[
+  { "keys": ["super+n"], "command": "noop" },
+
+  { "keys": ["]"], "command": "next_file_tab" },
+  { "keys": ["["], "command": "prev_file_tab" },
+
+  { "keys": ["super+4"], "command": "toggle_side_bar" },
+  { "keys": ["super+0"], "command": "navigate_to_head" },
+
+  { "keys": ["super+b"], "command": "blame", "args": {"path": "$path"} },
+  { "keys": ["super+l"], "command": "file_history", "args": {"path": "$path"} },
+  { "keys": ["super+u"], "command": "git", "args": {"argv": ["reset", "HEAD~1"]} },
+
+  { "keys": ["super+t"], "command": "stage_file", "args": {"path": "$path"} },
+  { "keys": ["super+shift+t"], "command": "unstage_file", "args": {"path": "$path"} },
+
+  { "keys": ["super+k"], "command": "commit", "args": {"mode": "commit"} },
+  { "keys": ["super+shift+up"], "command": "git", "args": {"argv": ["push", "-u", "origin", "$head"]} },
+  { "keys": ["super+shift+down"], "command": "git", "args": {"argv": ["fetch", "--prune", "--progress", "origin"]} },
+
+  { "keys": ["f7"], "command": "show_command_palette", "args": {"command": "create_branch"} },
+  { "keys": ["f8"], "command": "show_command_palette", "args": {"command": "delete_branch"} },
+  { "keys": ["super+'"], "command": "show_command_palette", "args": {"command": "checkout_branch"} },
+  { "keys": ["f2"], "command": "show_command_palette", "args": {"command": "rename_branch", "args": {"branch": "$head"}} }
+]
