@@ -14,6 +14,8 @@
   { "keys": ["super+t"], "command": "stage_file", "args": {"path": "$path"} },
   { "keys": ["super+shift+t"], "command": "unstage_file", "args": {"path": "$path"} },
 
+  { "keys": ["super+enter"], "command": "open_in_editor", "args": {"path": "$working_dir/$path"} },
+
   { "keys": ["super+k"], "command": "commit", "args": {"mode": "commit"} },
   { "keys": ["super+shift+up"], "command": "git", "args": {"argv": ["push", "-u", "origin", "$head"]} },
   { "keys": ["super+shift+down"], "command": "git", "args": {"argv": ["pull", "--ff-only", "--autostash"]} },
