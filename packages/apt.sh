@@ -17,7 +17,7 @@ apt-get -y install fd-find
 
 # packages
 tar -xvf meld-3.20.2.tar.xz
-tar -zxvf smartgit-linux-20_1_4.tar.gz
+tar -jxvf sublime_merge_build_2091_x64.tar
 tar -jxvf sublime_text_3_build_3211_x64.tar.bz2
 sudo dpkg -i skypeforlinux-64.deb
 sudo dpkg -i watchexec-1.14-x86_64.deb
