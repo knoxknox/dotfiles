@@ -16,15 +16,14 @@ apt-get -y install vagrant
 apt-get -y install fd-find
 
 # packages
-tar -xvf meld-3.20.2.tar.xz
-tar -jxvf sublime_merge_build_2091_x64.tar
+tar -xvf meld-3.22.0.tar.xz
+tar -jxvf sublime_merge_build_2091_x64.tar.xz
 tar -jxvf sublime_text_3_build_3211_x64.tar.bz2
-sudo dpkg -i skypeforlinux-64.deb
-sudo dpkg -i watchexec-1.14-x86_64.deb
-sudo dpkg -i virtualbox-6.1.14_amd64.deb
-sudo dpkg -i dropbox_2020.03.04_amd64.deb
-sudo dpkg -i google-chrome-stable-85.0_amd64.deb
-sudo dpkg -i mysql-workbench-community_8.0.21_amd64.deb
+sudo dpkg -i watchexec-1.20.5-x86_64.deb
+sudo dpkg -i virtualbox-7.0.10_amd64.deb
+sudo dpkg -i dropbox_2022.12.05_amd64.deb
+sudo dpkg -i google-chrome-stable-116.0_amd64.deb
+sudo dpkg -i mysql-workbench-community_8.0.34_amd64.deb
 
 # gnome-classic
 apt-get install gnome-shell or gnome-session-fallback
