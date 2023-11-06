@@ -5,9 +5,9 @@ Theme:
 [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 Plugins:
-[Go](https://code.visualstudio.com/docs/languages/go),
+[Go](https://marketplace.visualstudio.com/items?itemName=golang.Go),
+[Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp),
 [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls),
-[VSCode Ruby](https://marketplace.visualstudio.com/items?itemName=wingrunr21.vscode-ruby),
 [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph),
 [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils),
 [All Autocomplete](https://marketplace.visualstudio.com/items?itemName=Atishay-Jain.All-Autocomplete),
