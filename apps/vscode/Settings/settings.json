@@ -34,11 +34,11 @@
   "search.searchOnType": false,
   "search.showLineNumbers": true,
   "window.title": "${activeEditorLong}",
-  "workbench.activityBar.visible": false,
+  "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "Spacegray Ocean Dark",
+  "workbench.editor.empty.hint": "hidden",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.highlightModifiedTabs": true,
-  "workbench.editor.untitled.hint": "hidden",
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
   "workbench.startupEditor": "none"
