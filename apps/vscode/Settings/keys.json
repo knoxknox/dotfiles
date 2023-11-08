@@ -82,6 +82,11 @@
     "command": "editor.action.transformToUppercase"
   },
   {
+    "key": "enter",
+    "command": "list.select",
+    "when": "listFocus && !inputFocus"
+  },
+  {
     "key": "backspace",
     "command": "moveFileToTrash",
     "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
@@ -255,11 +260,6 @@
     "key": "cmd+backspace",
     "command": "-moveFileToTrash",
     "when": "explorerResourceMoveableToTrash && explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
-  },
-  {
-    "key": "enter",
-    "command": "-renameFile",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsRoot && !explorerResourceReadonly && !inputFocus"
   },
   {
     "key": "cmd+w",
