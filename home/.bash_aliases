@@ -17,7 +17,7 @@ ph() {
       $ git man
       $ fd <file> <path>
       $ rg <text> <path>
-      $ watchexec -c <command>
+      $ watchexec -c -q <command>
     editor:
       $ fd -t file <pattern> -x subl
       $ rg -l <pattern> | xargs subl
