@@ -1,0 +1,5 @@
+<snippet>
+  <scope>source.python</scope>
+  <tabTrigger>bb</tabTrigger>
+  <content><![CDATA[import ipdb; ipdb.set_trace()]]></content>
+</snippet>
