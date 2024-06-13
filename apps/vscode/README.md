@@ -6,6 +6,7 @@ Theme:
 
 Plugins:
 [Go](https://marketplace.visualstudio.com/items?itemName=golang.Go),
+[Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python),
 [Ruby LSP](https://marketplace.visualstudio.com/items?itemName=Shopify.ruby-lsp),
 [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls),
 [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph),
