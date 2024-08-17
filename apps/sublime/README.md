@@ -8,8 +8,10 @@ Plugins:
 [Package Control](https://packagecontrol.io),
 [FileIcons](https://packagecontrol.io/packages/FileIcons),
 [GitGutter](https://packagecontrol.io/packages/GitGutter),
+[Simple JSX](https://packagecontrol.io/packages/Simple%20JSX),
 [AdvancedNewFile](https://packagecontrol.io/packages/AdvancedNewFile),
 [All Autocomplete](https://packagecontrol.io/packages/All%20Autocomplete),
+[TypeScript Syntax](https://packagecontrol.io/packages/TypeScript%20Syntax),
 [Copy Relative Path](https://packagecontrol.io/packages/Copy%20Relative%20Path)
 
 ## Theme activation
