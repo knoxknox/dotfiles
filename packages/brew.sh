@@ -1,9 +1,11 @@
-brew install jq
 brew install fd
+brew install jq
+brew install sd
 brew install git
 brew install vim
 brew install asdf
 brew install curl
+brew install htop
 brew install tmux
 brew install wget
 brew install httpie
