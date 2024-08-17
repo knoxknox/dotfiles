@@ -1,5 +1,6 @@
 {
   "log_commands": false,
+  "diff_style": "inline",
   "auto_fetch_delay": 10,
   "side_bar_layout": "tabs",
   "render_commit_dialog_message_at_top": false
