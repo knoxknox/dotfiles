@@ -1,9 +1,9 @@
 ##
 # This is functions to help to work with docker.
-# You need to place this to your profile (~/.bashrc).
+# You need to place this to your profile (~/.bash_profile).
 #
 # Usage:
-# Type `dc` in console (it outputs details and examples).
+# Type `dc` in the console (it outputs details and examples).
 #
 function dc() {
   case $1 in
