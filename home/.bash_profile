@@ -12,5 +12,5 @@ export BASH_SILENCE_DEPRECATION_WARNING=1
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Include asdf sources to the profile
-source /opt/homebrew/opt/asdf/libexec/asdf.sh
 source "$HOME/.asdf/plugins/java/set-java-home.bash"
+export PATH="${ASDF_DATA_DIR:-$HOME/.asdf}/shims:$PATH"
