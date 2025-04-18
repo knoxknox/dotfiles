@@ -1,6 +1,7 @@
 Undo:
   git reset HEAD~1           - cancel commit
   git revert <commit>        - revert commit
+  git reflog <branch>        - branch history
   git checkout <file>        - discard changes
   git reset --hard HEAD      - discard all changes
 
