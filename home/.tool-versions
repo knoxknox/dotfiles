@@ -2,7 +2,7 @@ ruby 3.3.7
 erlang 28.2
 elixir 1.19.4
 golang 1.25.1
-python 3.13.5
+python 3.14.2
 nodejs 20.9.0
 ruby jruby-9.4.8.0
 java openjdk-21.0.2
