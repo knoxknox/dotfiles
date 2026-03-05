@@ -11,5 +11,6 @@ Plugins:
 [ElixirLS](https://marketplace.visualstudio.com/items?itemName=JakeBecker.elixir-ls),
 [Ruby Solargraph](https://marketplace.visualstudio.com/items?itemName=castwide.solargraph),
 [File Utils](https://marketplace.visualstudio.com/items?itemName=sleistner.vscode-fileutils),
+[GitHub Copilot Chat](https://marketplace.visualstudio.com/items?itemName=GitHub.copilot-chat),
 [All Autocomplete](https://marketplace.visualstudio.com/items?itemName=Atishay-Jain.All-Autocomplete),
 [Copy Relative Path](https://marketplace.visualstudio.com/items?itemName=alexdima.copy-relative-path)
