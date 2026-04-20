@@ -1,7 +1,6 @@
 Undo:
   git reset HEAD~1           - cancel commit
   git revert <commit>        - revert commit
-  git reflog <branch>        - branch history
   git checkout <file>        - discard changes
   git reset --hard HEAD      - discard all changes
 
@@ -16,6 +15,7 @@ Local:
 
 Branches:
   git branch -av             - list branches
+  git reflog <branch>        - branch history
   git checkout <branch>      - switch to branch
   git checkout -b <branch>   - create new branch
   git branch -d <local>      - delete local branch
