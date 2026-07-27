@@ -45,6 +45,7 @@
   "workbench.browser.showInTitleBar": false,
   "workbench.colorTheme": "Spacegray Ocean Dark",
   "workbench.editor.empty.hint": "hidden",
+  "workbench.editor.enablePreview": false,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
