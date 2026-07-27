@@ -28,7 +28,6 @@
   "explorer.decorations.badges": false,
   "explorer.decorations.colors": false,
   "explorer.enableDragAndDrop": false,
-  "explorer.openEditors.visible": 0,
   "files.trimTrailingWhitespace": true,
   "git.enableStatusBarSync": false,
   "material-icon-theme.activeIconPack": "none",
