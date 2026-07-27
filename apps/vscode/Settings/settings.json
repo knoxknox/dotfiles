@@ -1,5 +1,8 @@
 {
   "breadcrumbs.enabled": false,
+  "chat.tips.enabled": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "chat.viewSessions.orientation": "stacked",
   "editor.autoIndent": "keep",
   "editor.codeLens": false,
   "editor.colorDecorators": false,
@@ -39,6 +42,7 @@
   "testing.gutterEnabled": false,
   "window.title": "${activeEditorLong}",
   "workbench.activityBar.location": "hidden",
+  "workbench.browser.showInTitleBar": false,
   "workbench.colorTheme": "Spacegray Ocean Dark",
   "workbench.editor.empty.hint": "hidden",
   "workbench.editor.highlightModifiedTabs": true,
