@@ -1,6 +1,7 @@
 {
   "breadcrumbs.enabled": false,
   "editor.autoIndent": "keep",
+  "editor.codeLens": false,
   "editor.colorDecorators": false,
   "editor.copyWithSyntaxHighlighting": false,
   "editor.cursorWidth": 1,
@@ -36,6 +37,7 @@
   "material-icon-theme.saturation": 0.5,
   "search.searchOnType": false,
   "search.showLineNumbers": true,
+  "testing.gutterEnabled": false,
   "window.title": "${activeEditorLong}",
   "workbench.activityBar.location": "hidden",
   "workbench.colorTheme": "Spacegray Ocean Dark",
