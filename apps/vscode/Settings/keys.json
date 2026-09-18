@@ -148,6 +148,11 @@
     "command": "workbench.action.gotoSymbol"
   },
   {
+    "key": "cmd+k cmd+c",
+    "command": "workbench.action.maximizeAuxiliaryBar",
+    "when": "!auxiliaryBarMaximized"
+  },
+  {
     "key": "ctrl+tab",
     "command": "workbench.action.nextEditor"
   },
@@ -198,6 +203,11 @@
   {
     "key": "cmd+p",
     "command": "workbench.action.quickOpen"
+  },
+  {
+    "key": "cmd+k cmd+c",
+    "command": "workbench.action.restoreAuxiliaryBar",
+    "when": "auxiliaryBarMaximized"
   },
   {
     "key": "cmd+k cmd+b",
