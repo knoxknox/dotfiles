@@ -18,8 +18,8 @@ install:
 	@cp -r $(DOTFILES_SOURCE) $(DOTFILES_DESTINATION)
 
 	@echo 'Configure symlinks'
-	@ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /opt/homebrew/bin/subl
-	@ln -s /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code /opt/homebrew/bin/code
+	@ln -fs /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /opt/homebrew/bin/subl
+	@ln -fs /Applications/Visual\ Studio\ Code.app/Contents/Resources/app/bin/code /opt/homebrew/bin/code
 
 	@echo "Configure iterm"
 	@cp $(ITERM_SOURCE)/com.googlecode.iterm2.plist $(ITERM_DESTINATION)/com.googlecode.iterm2.plist.xml
