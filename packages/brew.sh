@@ -24,3 +24,4 @@ brew cask install virtualbox
 brew cask install sublime-text
 brew cask install sublime-merge
 brew cask install google-chrome
+brew cask install visual-studio-code
