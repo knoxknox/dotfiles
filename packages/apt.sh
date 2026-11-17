@@ -19,6 +19,7 @@ apt-get -y install rust-sd
 tar -jxvf sublime_merge_build_2096_x64.tar.xz
 tar -jxvf sublime_text_3_build_3211_x64.tar.bz2
 sudo dpkg -i zoom_amd64.deb
+sudo dpkg -i code_1.146.0_amd64.deb
 sudo dpkg -i watchexec-1.20.5-x86_64.deb
 sudo dpkg -i virtualbox-7.0.20_amd64.deb
 sudo dpkg -i google-chrome-stable-127.0_amd64.deb
