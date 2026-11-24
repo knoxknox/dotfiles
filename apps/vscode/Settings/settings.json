@@ -49,5 +49,6 @@
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.enableExperiments": false,
   "workbench.iconTheme": "material-icon-theme",
+  "workbench.tips.enabled": false,
   "workbench.startupEditor": "none"
 }
