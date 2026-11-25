@@ -1,5 +1,6 @@
 {
   "breadcrumbs.enabled": false,
+  "chat.fontSize": 14,
   "chat.tips.enabled": false,
   "chat.titleBar.openInAgentsWindow.enabled": false,
   "chat.viewSessions.orientation": "stacked",
